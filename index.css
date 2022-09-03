@@ -1,19 +1,261 @@
-@media (max-width: 768px) {
-    body {
-        color: red;
-    }
+.body {
+    background-color: black;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.text-one {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.text-two {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    height: 3.6em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.text-three {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    height: 3.6em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.text-four {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    height: 4.6em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.text-five {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    text-align: center;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    vertical-align:middle;
+    font-size: 20px;
+    margin-top: 9%;
+}
+
+.text-footer {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    text-align: center;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    vertical-align:middle;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.Blank {
+    height: 150px;
+    background-color: black;
+    width: 100%;
+}
+
+.Blank2 {
+    text-align: center;
+    height: 150px;
+    background-color: black;
+    width: 100%;
+}
+
+.Blank3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: black;
+    width: 100%;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    /* 1 */
+}
+
+.block {
+    width: 20%;
+    height: 355px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #171b29;
+    float: left;
+}
+
+.block2 {
+    width: 30%;
+    height: 365px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #171b29;
+    float: left;
+}
+
+.block3 {
+    width: 30%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #171b29;
+    float: left;
+}
+
+.block4 {
+    width: 61%;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.block5 {
+    width: 15%;
+    height: 7vh;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 7px;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    float: left;
+    background-color: #171b29;
+}
+
+
+.borderSet {
+    border-bottom: #808080;
+    border-top: #171b29;
+    border-right: #171b29;
+    border-left: #171b29;
+    border-style: solid;
 }
 
 .side {
+    height: 100px;
     background-color: black;
     width: 30%;
     float: left;
 }
 
 .center {
-    background-color: black;
     width: 40%;
-    float: left;
+    height: 120px;
+    margin-top: 120px;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.center-last {
+    width: 40%;
+    height: 200px;
+    margin-top: 200px;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 여러 줄 자르기 추가 스타일 */
+    white-space: normal;
+    line-height: 1.2;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.line {
+    width: 132px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #86b0ff;
 }
 
 .nav1 {
@@ -28,17 +270,93 @@
     float: left;
 }
 
-.imageSector {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.overText {
+    color: #808080;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
 }
 
-.imagePage {
-    background-image: url("./assets/47.png");
+.about-us-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 65.24590163934427%;
+    overflow: hidden;
+}
+
+.about-us-image-wrapper .image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-size: cover;
+}
+
+.about-us-image-wrapper2 {
+    position: relative;
+    width: auto;
+    height: 220px;
+    overflow: hidden;
+}
+
+.about-us-image-wrapper2 .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+.about-us-image-wrapper3 {
+    position: relative;
+    width: auto;
+    height: 100%;
+    padding-bottom: 42.08633093;
+    overflow: hidden;
+}
+
+.about-us-image-wrapper3 .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 59.89vw;
+}
+
+.about-us-image-wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 67.24590163934427%;
+    overflow: hidden;
+}
+
+.about-us-image-wrapper4 .image {
+    margin-top: 160px;
+    height: 10vh;
+}
+
+.about-us-image-wrapper4 .image2 {
+    margin-top: 160px;
+    height: 15vh;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 53.098106712564544%;
+    overflow: hidden;
+}
+
+.image-wrapper .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .infoPage {
@@ -46,28 +364,9 @@
     background-color: black;
 }
 
-.KLAYLINK-WEB302- {
-    width: 762px;
-    height: 92px;
-    font-family: GmarketSans;
-    font-size: 70px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
-
-.KLAYLINK-WEB302- .text-style-12 {
-    font-weight: 500;
-    color: #86b0ff;
-}
-
 .KLAYLINK-WEB30- {
     width: 762px;
-    height: 92px;
+    height: 150px;
     font-family: GmarketSans;
     font-size: 42px;
     font-weight: 300;
@@ -81,7 +380,40 @@
 
 .KLAYLINK-WEB30- .text-style-1 {
     font-weight: 500;
+    font-size: 2.4vw;
     color: #86b0ff;
+}
+
+.KLAYLINK-WEB30- .text-style-2 {
+    font-weight: 500;
+    font-size: 2.4vw;
+    color: white;
+}
+
+.KLAYLINK-WEB302- {
+    width: 762px;
+    height: 1000px;
+    font-family: GmarketSans;
+    font-size: 42px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.KLAYLINK-WEB302- .text-style-1 {
+    font-weight: 500;
+    font-size: 5.4vw;
+    color: #86b0ff;
+}
+
+.KLAYLINK-WEB302- .text-style-2 {
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: white;
 }
 
 .navContainer {
@@ -103,11 +435,4 @@
     text-align: center;
     text-decoration: none;
     color: #fff;
-}
-
-.-\35 2 {
-    width: 132px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #86b0ff;
 }

@@ -1,0 +1,118 @@
+.body {
+    background-color: black;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #171b29;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.main-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 53.098106712564544%;
+    overflow: hidden;
+}
+
+.main-image-wrapper .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.graph-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 42.08633093;
+    overflow: hidden;
+}
+
+.graph-image-wrapper .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 59.89vw;
+}
+
+.textContainer {
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.textContainer-div {
+    padding-top: 130px;
+}
+
+.lineContainer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.lineContainer-div {
+    padding-top: 60px;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.itemContainer-div {
+    width: 20%;
+    height: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #171b29;
+    float: left;
+}
+
+.itemContainer-div2 {
+    width: 30%;
+    height: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #171b29;
+    float: left;
+}
+
+.itemContainer-div3 {
+    width: 61%;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+@media (min-width:768px) {
+    
+}
