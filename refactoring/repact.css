@@ -1,118 +1,1080 @@
-.body {
-    background-color: black;
-}
-
-.main {
-    min-height: 100vh;
-    width: 100%;
-    background-color: black;
-}
-
-.navContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 60px;
-    background-color: #171b29;
-}
-
-.navDiv {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    padding-top: 20px;
-}
-
-.main-image-wrapper {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 53.098106712564544%;
-    overflow: hidden;
-}
-
-.main-image-wrapper .image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.graph-image-wrapper {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 42.08633093;
-    overflow: hidden;
-}
-
-.graph-image-wrapper .image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 59.89vw;
-}
-
-.textContainer {
-    width: 100%;
-    height: 220px;
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
-.textContainer-div {
-    padding-top: 130px;
-}
-
-.lineContainer {
-    width: 100%;
-    height: 120px;
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-}
-
-.lineContainer-div {
-    padding-top: 60px;
-}
-
-.itemContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.itemContainer-div {
-    width: 20%;
-    height: 340px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    background-color: #171b29;
-    float: left;
-}
-
-.itemContainer-div2 {
-    width: 30%;
-    height: 340px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    background-color: #171b29;
-    float: left;
-}
-
-.itemContainer-div3 {
-    width: 61%;
-    height: 400px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
-
-@media (min-width:768px) {
+@media(min-width: 1040px) {
+    .body {
+        background-color: black;
+    }
     
+    .navContainer {
+        display: flex;
+        justify-content: center;
+        width: 1920px;
+        height: 60px;
+        background-color: #171b29;
+    }
+
+    .navDiv {
+        display: flex;
+        justify-content: center;
+        width: 960px;
+        padding-top: 20px;
+    }
+
+    .navContentDiv {
+        color: white;
+        margin-right: 100px;
+    }
+
+    .navContent {
+        text-decoration-line: none;
+        color: white;
+    }
+
+    .mainImageWrapper {
+        width: 1920px;
+        height: 1020px;
+    }
+
+    .mainImageWrapper .image {
+        width: 1920px;
+        height: 1020px;
+    }
+
+    .graphImageWrapper {
+        width: 1112px;
+        height: 468px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer {
+        width: 1920px;
+        height: 116px;
+        background-color: #171b29;
+    }
+
+    .footerText {
+        color: #808080;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .mintContentContainer {
+        width: 1920px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 88px;
+        color: #86b0ff;
+        padding-top: 266px;
+    }
+
+    .mintContentContainer2 {
+        width: 1920px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        padding-top: 17px;
+    }
+
+    .mintContentContainer3 {
+        display: flex;
+        justify-content: center;
+        width: 1920px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        padding-top: 17px;
+        padding-bottom: 282px;
+    }
+
+    .mintButtonText {
+        margin-top: 20px;
+    }
+
+    .mintButtonIndex0 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #86b0ff;
+    }
+
+    .mintButtonIndex1 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: #808080;
+    }
+
+    .line {
+        width: 132px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #86b0ff;
+    }
+
+
+    .textContainer {
+        width: 1920px;
+        height: 220px;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+    .textContainerDiv {
+        width: 1920px;
+        height: 92px;
+        padding-top: 132px;
+    }
+
+    .text86b {
+        color: #86b0ff;
+    }
+
+    .textMore {
+        color: #808080;
+        text-align: right;
+        padding-top: 221px;
+        margin-right: 20px;
+        background-color: #171b29;
+        cursor: pointer;
+    }
+
+    .textTwitter {
+        color: #808080;
+        text-align: right;
+        margin-top: 71px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textDiscord {
+        color: #808080;
+        text-align: right;
+        margin-top: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textGithub {
+        color: #808080;
+        text-align: right;
+        margin-top: 50px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .textInfo {
+        color: #808080;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .boxTextTitle {
+        color: white;
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .boxTextDescription1 {
+        color: #808080;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .boxTextDescription2 {
+        color: #808080;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .boxImageRocat {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .boxImageGithub {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .boxImageDivType1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .boxImageDivType2 {
+        text-align: left;
+        float: left;
+    }
+
+    .boxText86b {
+        color: #86b0ff;
+        margin-left: 25px;
+    }
+
+    .boxText76e {
+        color: #76e170;
+        margin-left: 25px;
+    }
+
+    .boxText808 {
+        color: #808080;
+        margin-bottom: 25px;
+    }
+
+    .boxDivType1 {
+        margin-top: 25px;
+    }
+
+    .boxTextDivType1 {
+        border: 1px solid #ffffff;
+        border-top: #171b29;
+        border-left: #171b29;
+        border-right: #171b29;
+        margin-top: 70px;
+    }
+
+    .boxText808Big1 {
+        text-align: left;
+        margin-left: 25px;
+        font-size: 70px;
+        color: #808080;
+    }
+
+    .boxText808Big2 {
+        text-align: left;
+        font-size: 30px;
+        color: #808080;
+    }
+
+    .boxText808Big3 {
+        color: #808080;
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .boxTextWhiteBig {
+        color: #ffffff;
+        margin-left: 25px;
+        font-size: 50px;
+    }
+
+    .boxTextWhite {
+        color: white;
+    }
+
+    .lineContainer {
+        width: 1920px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .lineContainerDiv {
+        padding-top: 58px;
+        padding-bottom: 65px;
+    }
+
+    #Tablet {
+        display:none;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #mainMobile {
+        display: none;
+    }
+
+    .itemContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .itemContainerDiv {
+        width: 360px;
+        height: 391px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
+
+    .itemContainerDiv2 {
+        width: 548px;
+        height: 391px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
+
+    .itemContainerDiv3 {
+        width: 548px;
+        height: 448px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+}
+
+@media(max-width:1040px) {
+    .body {
+        background-color: black;
+    }
+    
+    .navContainer {
+        display: flex;
+        justify-content: center;
+        width: 1040px;
+        height: 60px;
+        background-color: #171b29;
+    }
+
+    .navDiv {
+        display: flex;
+        justify-content: center;
+        width: 520px;
+        padding-top: 20px;
+    }
+
+    .navContentDiv {
+        color: white;
+        margin-right: 100px;
+        font-size: 14px;
+    }
+
+    .navContent {
+        text-decoration-line: none;
+        color: white;
+    }
+
+    .mainImageWrapper {
+        width: 1040px;
+        height: 771px;
+    }
+
+    .mainImageWrapper .image {
+        width: 1040px;
+        height: 771px;
+    }
+
+    .graphImageWrapper {
+        width: 1112px;
+        height: 468px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer {
+        width: 1040px;
+        height: 116px;
+        background-color: #171b29;
+    }
+
+    .footerText {
+        color: #808080;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .mintContentContainer {
+        width: 1040px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 100px;
+        color: #86b0ff;
+        padding-top: 266px;
+    }
+
+    .mintContentContainer2 {
+        width: 1040px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        padding-top: 17px;
+    }
+
+    .mintContentContainer3 {
+        display: flex;
+        justify-content: center;
+        width: 1040px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        padding-top: 17px;
+        padding-bottom: 282px;
+    }
+
+    .mintButtonText {
+        margin-top: 20px;
+    }
+
+    .mintButtonIndex0 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #86b0ff;
+    }
+
+    .mintButtonIndex1 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: #808080;
+    }
+
+    .line {
+        width: 132px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #86b0ff;
+    }
+
+    .textContainer {
+        width: 1040px;
+        height: 195px;
+        text-align: center;
+        font-size: 42px;
+        color: white;
+    }
+
+    .textContainerDiv {
+        width: 1040px;
+        height: 92px;
+        padding-top: 103px;
+    }
+
+    .text86b {
+        color: #86b0ff;
+    }
+
+    .textMore {
+        color: #808080;
+        text-align: right;
+        padding-top: 221px;
+        margin-right: 20px;
+        background-color: #171b29;
+        cursor: pointer;
+    }
+
+    .textTwitter {
+        color: #808080;
+        text-align: right;
+        margin-top: 71px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textDiscord {
+        color: #808080;
+        text-align: right;
+        margin-top: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textGithub {
+        color: #808080;
+        text-align: right;
+        margin-top: 50px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .textInfo {
+        color: #808080;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .boxTextTitle {
+        color: white;
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .boxTextDescription1 {
+        color: #808080;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .boxTextDescription2 {
+        color: #808080;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .boxImageRocat {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .boxImageGithub {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .boxImageDivType1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .boxImageDivType2 {
+        text-align: left;
+        float: left;
+    }
+
+    .boxText86b {
+        color: #86b0ff;
+        margin-left: 25px;
+    }
+
+    .boxText76e {
+        color: #76e170;
+        margin-left: 25px;
+    }
+
+    .boxText808 {
+        color: #808080;
+        margin-bottom: 25px;
+    }
+
+    .boxDivType1 {
+        margin-top: 25px;
+    }
+
+    .boxTextDivType1 {
+        border: 1px solid #ffffff;
+        border-top: #171b29;
+        border-left: #171b29;
+        border-right: #171b29;
+        margin-top: 70px;
+    }
+
+    .boxText808Big1 {
+        text-align: left;
+        margin-left: 25px;
+        font-size: 70px;
+        color: #808080;
+    }
+
+    .boxText808Big2 {
+        text-align: left;
+        font-size: 30px;
+        color: #808080;
+    }
+
+    .boxText808Big3 {
+        color: #808080;
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .boxTextWhiteBig {
+        color: #ffffff;
+        margin-left: 25px;
+        font-size: 50px;
+    }
+
+    .boxTextWhite {
+        color: white;
+    }
+
+    .lineContainer {
+        width: 1040px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .lineContainerDiv {
+        padding-top: 58px;
+        padding-bottom: 65px;
+    }
+
+    #PC {
+        display:none;
+    }
+
+    #mainMobile {
+        display: none;
+    }
+    
+    #mobile {
+        display: none;
+    }
+
+    .itemContainerBlank {
+        margin-top: 30px;
+    }
+
+
+    .itemContainer {
+        width: 1040px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .itemContainerDiv {
+        width: 360px;
+        height: 391px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
+
+    .itemContainer2 {
+        width: 1040px;
+        display: flex;
+        justify-content: left;
+        background-color: black;
+    }
+
+    .itemContainer2-2 {
+        width: 1040px;
+        display: flex;
+        justify-content: right;
+        background-color: black;
+    }
+
+    .itemContainerDiv2 {
+        width: 548px;
+        height: 391px;
+        margin-left: 138px;
+        border-radius: 10px;
+        background-color: #171b29;
+    }
+
+    .itemContainerDiv2-2 {
+        width: 548px;
+        height: 391px;
+        margin-right: 138px;
+        border-radius: 10px;
+        background-color: #171b29;
+    }
+
+    .itemContainer3 {
+        width: 1040px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .itemContainerDiv3 {
+        width: 374px;
+        height: 432px;
+        margin-left: 138px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
+
+    .itemContainerDiv3-3 {
+        width: 374px;
+        height: 432px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
+
+}
+
+@media(max-width:428px) {
+    .body {
+        background-color: black;
+    }
+    
+    .navContainer {
+        display: flex;
+        justify-content: center;
+        width: 428px;
+        height: 60px;
+        background-color: #171b29;
+    }
+
+    .navDiv {
+        display: flex;
+        justify-content: center;
+        width: 214px;
+        padding-top: 20px;
+    }
+
+    .navContentDiv {
+        color: white;
+        margin-right: 100px;
+        font-size: 14px;
+    }
+
+    .navContent {
+        text-decoration-line: none;
+        color: white;
+    }
+
+    .mainImageWrapper {
+        width: 428px;
+        height: 541px;
+    }
+
+    .mainImageWrapper .image {
+        width: 428px;
+        height: 541px;
+    }
+
+    .graphImageWrapper {
+        width: 1112px;
+        height: 468px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer {
+        width: 428px;
+        height: 116px;
+        background-color: #171b29;
+    }
+
+    .footerText {
+        color: #808080;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .mintContentContainer {
+        width: 428px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 100px;
+        color: #86b0ff;
+        padding-top: 266px;
+    }
+
+    .mintContentContainer2 {
+        width: 428px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        padding-top: 17px;
+    }
+
+    .mintContentContainer3 {
+        display: flex;
+        justify-content: center;
+        width: 428px;
+        height: 88px;
+        background-color: black;
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        padding-top: 17px;
+        padding-bottom: 282px;
+    }
+
+    .mintButtonText {
+        margin-top: 20px;
+    }
+
+    .mintButtonIndex0 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #86b0ff;
+    }
+
+    .mintButtonIndex1 {
+        cursor: pointer;
+        width: 360px;
+        height: 80px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: #808080;
+    }
+
+    .line {
+        width: 132px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #86b0ff;
+    }
+
+    .textContainer {
+        width: 428px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+
+    .textContainerDiv {
+        width: 428px;
+        padding-top: 115px;
+    }
+
+    .text86b {
+        color: #86b0ff;
+    }
+
+    .textMore {
+        color: #808080;
+        text-align: right;
+        padding-top: 82px;
+        margin-right: 20px;
+        background-color: #171b29;
+        cursor: pointer;
+    }
+
+    .textTwitter {
+        color: #808080;
+        text-align: right;
+        margin-top: 71px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textDiscord {
+        color: #808080;
+        text-align: right;
+        margin-top: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .textGithub {
+        color: #808080;
+        text-align: right;
+        margin-top: 50px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .textInfo {
+        color: #808080;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .boxTextTitle {
+        color: white;
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .boxTextDescription1 {
+        color: #808080;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .boxTextDescription2 {
+        color: #808080;
+        font-size: 14px;
+    }
+
+    .boxImageRocat {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .boxImageGithub {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .boxImageDivType1 {
+        text-align: center;
+    }
+
+    .boxImageDivType2 {
+        text-align: left;
+        float: left;
+    }
+
+    .boxText86b {
+        color: #86b0ff;
+        margin-left: 25px;
+    }
+
+    .boxText76e {
+        color: #76e170;
+        margin-left: 25px;
+    }
+
+    .boxText808 {
+        color: #808080;
+        margin-bottom: 25px;
+    }
+
+    .boxDivType1 {
+        margin-top: 25px;
+    }
+
+    .boxTextDivType1 {
+        border: 1px solid #ffffff;
+        border-top: #171b29;
+        border-left: #171b29;
+        border-right: #171b29;
+        margin-top: 70px;
+    }
+
+    .boxText808Big1 {
+        text-align: left;
+        margin-left: 25px;
+        font-size: 70px;
+        color: #808080;
+    }
+
+    .boxText808Big2 {
+        text-align: left;
+        font-size: 30px;
+        color: #808080;
+    }
+
+    .boxText808Big3 {
+        color: #808080;
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .boxTextWhiteBig {
+        color: #ffffff;
+        margin-left: 25px;
+        font-size: 50px;
+    }
+
+    .boxTextWhite {
+        color: white;
+    }
+
+    .lineContainer {
+        width: 428px;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .lineContainerDiv {
+        padding-top: 25px;
+    }
+
+    #mainMobile {
+        display: flex;
+    }
+
+    #mobile {
+        display:flex;
+    }
+
+    #PC {
+        display: none;
+    }
+
+    #Tablet {
+        display:none;
+    }
+
+    #PCTAP {
+        display: none;
+    }
+
+    #navBar {
+        display: none;
+    }
+
+    .itemContainerBlank {
+        margin-top: 30px;
+    }
+
+
+    .itemContainer {
+        width: 428px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+    }
+
+    .itemContainerDiv {
+        text-align: center;
+        width: 360px;
+        height: 265px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: #171b29;
+    }
+
+    .itemContainer2 {
+        width: 428px;
+        display: flex;
+        justify-content: left;
+        background-color: black;
+    }
+
+    .itemContainerDiv2 {
+        width: 548px;
+        height: 391px;
+        margin-left: 138px;
+        border-radius: 10px;
+        background-color: #171b29;
+    }
+
+    .itemContainerDiv3 {
+        width: 374px;
+        height: 432px;
+        margin-left: 138px;
+        margin-right: 15px;
+        border-radius: 10px;
+        background-color: #171b29;
+        float: left;
+    }
 }

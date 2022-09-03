@@ -1,227 +1,521 @@
-<!DOCYTYPE HTML>
-    <html>
+<html>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./repact.css" />
-        <meta charset="UTF-8">
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./repact.css">
+    <meta charset="UTF-8">
+</head>
 
-    <body class="body">
-        <header>
-            <nav>
-                <div class="navContainer">
-                    <div class="navDiv">
-                        <div>
-                            <a style="text-decoration-line: none;color: white;" href="">KLAY.LINK</a>
-                        </div>
-                    </div>
-                    <div class="navDiv">
-                        <div style="color: white;margin-right: 5vw;">
-                            <a style="text-decoration-line: none;color: white;" href="">ABOUT US</a>
-                        </div>
-                        <div style="color: white;margin-right: 5vw;">
-                            <a style="text-decoration-line: none;color: white;" href="">CONTACT</a>
-                        </div>
-                        <div style="color: white;margin-right: 5vw;">
-                            <a style="text-decoration-line: none;color: white;" href="">MINT LINK</a>
-                        </div>
+<body class="body">
+    <header>
+        <nav>
+            <div id="navBar" class="navContainer">
+                <div class="navDiv">
+                    <div class="navContentDiv">
+                        <a class="navContent" href="">KLAY.LINK</a>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <main style="background-color: black;">
-            <div id="container">
+                <div class="navDiv">
+                    <div class="navContentDiv">
+                        <a class="navContent" href="#ABOUTUS">ABOUT US</a>
+                    </div>
+                    <div class="navContentDiv">
+                        <a class="navContent" href="#CONTACT">CONTACT</a>
+                    </div>
+                    <div class="navContentDiv">
+                        <a class="navContent" href="#MINTLINK">MINT LINK</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
 
-                <div class="main-image-wrapper">
-                    <img src="./assets/main.png" alt="" class="image">
-                </div>
+            <div class="mainImageWrapper">
+                <picture id="PCTAP">
+                    <source media="(max-width:1040px)" srcset="./assets/mainTablet.png">
+                    <img id="mainImage" src="./assets/main.png" alt="상단메인이미지" class="image">
+                </picture>
+                <picture id="mainMobile">
+                    <source media="(max-width:428px)" srcset="./assets/mainMobile.png">
+                    <img src="./assets/mainMobile.png" alt="상단메인이미지" class="image">
+                </picture>
+            </div>
 
-                <div class="textContainer">
-                    <div class="textContainer-div">
-                        <span style="color: #86b0ff;">KLAY.LINK</span>는
-                        <span style="color: #86b0ff;">구독모델</span>을 거부하는
-                        <div>WEB3.0플레이어의 새로운 웹사이트에요</div>
+            <div id="ABOUTUS" class="textContainer">
+                <div class="textContainerDiv">
+                    <div>
+                        <span class="text86b">KLAY.LINK</span>는
+                        <span class="text86b">구독모델</span>을 거부하는
+                    </div>
+                    <div>
+                        <span>WEB3.0플레이어의 새로운 웹사이트에요</span>
                     </div>
                 </div>
-                <div class="lineContainer">
-                    <div class="lineContainer-div">
-                        <img src="./assets/line-1.svg" style="transform: rotate(180deg);" alt="">
-                    </div>
+            </div>
+            <div class="lineContainer">
+                <div class="lineContainerDiv">
+                    <img src="./assets/line-1.svg" style="transform: rotate(180deg);" alt="line-1-Rotate">
                 </div>
-                <div class="itemContainer">
-                    <div class="itemContainer-div">
-                        <div style="color: white; margin-left: 25px; margin-top: 25px; font-size: 25px;">결제는 한번만</div>
-                        <div style="color: #808080; margin-left: 25px; margin-top: 10px;">수 많은 유료구독에 이제 얼마가 나가는지</div>
-                        <div style="color: #808080; margin-left: 25px; margin-bottom: 25px;">모르겠다구요?KLAY.LINK는 한번이면 됩니다.
-                        </div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/money.png" srcset="./assets/money@2x.png 2x,./assets/money@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
-                    <div class="itemContainer-div">
-                        <div style="color: white; margin-left: 25px; margin-top: 25px; font-size: 25px;">WEB3.0의 새로운 신분증
-                        </div>
-                        <div style="color: #808080; margin-left: 25px; margin-top: 10px;">KLAY.LINK를 활용해 블록체인지갑이 WEB3.0
-                        </div>
-                        <div style="color: #808080; margin-left: 25px; margin-bottom: 25px;">시장에서 나를 알리는 수단이 될거에요.</div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/wallet.png" srcset="./assets/wallet@2x.png 2x,./assets/wallet@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
-                    <div class="itemContainer-div">
-                        <div style="color: white; margin-left: 25px; margin-top: 25px; font-size: 25px;">LINK로 손쉬운 네트워킹
-                        </div>
-                        <div style="color: #808080; margin-left: 25px; margin-top: 10px;">서로를 LINK하고 WEB3에서 손 쉽게 연결되세요.
-                        </div>
-                        <div style="color: #808080; margin-left: 25px; margin-bottom: 25px;"></div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/rocat.png" srcset="./assets/rocat@2x.png 2x,./assets/rocat@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
-                </div>
+            </div>
 
-                <div class="textContainer">
-                    <div class="textContainer-div">
-                        KLAYTN
-                        <span style="color: #86b0ff;">첫번째 SBT</span>
-                        <div>KLAY.LINK</div>
+            <div id="PC" class="itemContainer">
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">결제는 한번만</div>
+                    <div class="boxTextDescription1">수 많은 유료구독에 이제 얼마가 나가는지</div>
+                    <div class="boxTextDescription2">모르겠다구요?KLAY.LINK는 한번이면 됩니다.
+                    </div>
+                    <div class="boxImageDivType1">
+                        <img src="./assets/money.png" srcset="./assets/money@2x.png 2x,./assets/money@3x.png 3x">
                     </div>
                 </div>
-                <div class="lineContainer">
-                    <div class="lineContainer-div">
-                        <img src="./assets/line-2.svg" alt="">
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">WEB3.0의 새로운 신분증
+                    </div>
+                    <div class="boxTextDescription1">KLAY.LINK를 활용해 블록체인지갑이 WEB3.0
+                    </div>
+                    <div class="boxTextDescription2">시장에서 나를 알리는 수단이 될거에요.</div>
+                    <div class="boxImageDivType1">
+                        <img src="./assets/wallet.png" srcset="./assets/wallet@2x.png 2x,./assets/wallet@3x.png 3x">
                     </div>
                 </div>
-                <div class="itemContainer">
-                    <div class="itemContainer-div2">
-                        <div style="color: white; margin-left: 25px; margin-top: 25px; font-size: 25px;">SBT가 뭐죠?</div>
-                        <div style="color: #808080; margin-left: 25px; margin-top: 10px;">SBT는 Soul Bound Token의 약자로
-                            전송기능이 없어진 NFT 입니다.</div>
-                        <div style="color: #808080; margin-left: 25px; margin-bottom: 25px;">투기성이 아닌 사용성에 더 집중합니다.</div>
-                        <div style="text-align: left;float: left;" class="">
-                            <img src="./assets/fire.png" srcset="./assets/fire@2x.png 2x,./assets/fire@3x.png 3x"
-                                class="">
-                        </div>
-                        <div style="color: #808080; text-align: right;margin-top: 200px;margin-right: 20px;">
-                            더 알아보기 >
-                        </div>
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">LINK로 손쉬운 네트워킹
                     </div>
-                    <div class="itemContainer-div2">
-                        <div style="color: white; margin-left: 25px; margin-top: 25px; font-size: 25px;">SBT를 구매하려면?
-                        </div>
-                        <div style="color: #808080; margin-left: 25px; margin-top: 10px;">블록체인 지갑과 KLAY가 필요합니다.
-                            KLAY.LINK는 클레이튼 최초</div>
-                        <div style="color: #808080; margin-left: 25px; margin-bottom: 25px;">SBT로 2022년 09.22(GMT+9)부터
-                            사전판매가 됩니다.</div>
-                        <div style="text-align: left; float: left;" class="">
-                            <img src="./assets/box.png" srcset="./assets/box@2x.png 2x,./assets/box@3x.png 3x" class="">
-                        </div>
-                        <div style="color: #808080; text-align: right;margin-top: 200px;margin-right: 20px;">
-                            더 알아보기 >
-                        </div>
+                    <div class="boxTextDescription1">서로를 LINK하고 WEB3에서 손 쉽게 연결되세요.
+                    </div>
+                    <div class="boxTextDescription2"></div>
+                    <div class="boxImageRocat">
+                        <img src="./assets/rocat.png" srcset="./assets/rocat@2x.png 2x,./assets/rocat@3x.png 3x">
                     </div>
                 </div>
+            </div>
 
-                <div class="textContainer">
-                    <div class="textContainer-div">
-                        <div>동종 서비스 구독모델대비</div>
-                        <span>엄청난</span>
-                        <span style="color: #86b0ff;">비용절감</span>
-                        <span>과</span>
-                        <span style="color: #86b0ff;">확장성</span>
+            <div id="Tablet" class="itemContainer">
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">결제는 한번만</div>
+                    <div class="boxTextDescription1">수 많은 유료구독에 이제 얼마가 나가는지</div>
+                    <div class="boxTextDescription2">모르겠다구요?KLAY.LINK는 한번이면 됩니다.
+                    </div>
+                    <div class="boxImageDivType1">
+                        <img src="./assets/money.png" srcset="./assets/money@2x.png 2x,./assets/money@3x.png 3x">
                     </div>
                 </div>
-                <div class="lineContainer">
-                    <div class="lineContainer-div">
-                        <img src="./assets/line-1.svg" alt="">
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">WEB3.0의 새로운 신분증
+                    </div>
+                    <div class="boxTextDescription1">KLAY.LINK를 활용해 블록체인지갑이 WEB3.0
+                    </div>
+                    <div class="boxTextDescription2">시장에서 나를 알리는 수단이 될거에요.</div>
+                    <div class="boxImageDivType1">
+                        <img src="./assets/wallet.png" srcset="./assets/wallet@2x.png 2x,./assets/wallet@3x.png 3x">
                     </div>
                 </div>
-                <div class="itemContainer">
-                    <div class="itemContainer-div2">
-                        <div style="margin-top: 25px"></div>
-                        <span style="color: #76e170; margin-left: 25px;">링크 나무</span>
-                        <span style="color: #808080; margin-bottom: 25px;">구독모델 1년 기준</span>
-                        <div style="background-color: #76e170;margin-top: 50px;">
-                            <span style="text-align: left;margin-left: 25px;font-size: 70px;color: #808080;">195</span>
-                            <span style="text-align: left;font-size: 30px;color: #808080;">USD</span>
-                        </div>
-                        <div>
-                            <span style="text-align: left;margin-left: 25px;font-size: 70px;color: #808080;">264,000</span>
-                            <span style="text-align: left;font-size: 30px;color: #808080;">KRW</span>
-                        </div>
-                        <div style="color: #808080; text-align: center; margin-top: 40px;margin-right: 20px;">
-                            2022년 9월1일 기준
-                        </div>
+            </div>
+            <div id="Tablet" class="itemContainerBlank"></div>
+            <div id="Tablet" class="itemContainer">
+                <div class="itemContainerDiv">
+                    <div class="boxTextTitle">LINK로 손쉬운 네트워킹
                     </div>
-                    <div class="itemContainer-div2">
-                        <div style="margin-top: 25px"></div>
-                        <span style="color: #86b0ff; margin-left: 25px;">KLAY.LINK</span>
-                        <span style="color: #808080; margin-bottom: 25px;">기간제한 없음</span>
-                        <div style="background-color: #76e170;margin-top: 50px;">
-                            <span style="text-align: left;margin-left: 25px;font-size: 70px;color: #808080;">70</span>
-                            <span style="text-align: left;font-size: 30px;color: #808080;">USD</span>
-                        </div>
-                        <div>
-                            <span style="text-align: left;margin-left: 25px;font-size: 70px;color: #808080;">95,000</span>
-                            <span style="text-align: left;font-size: 30px;color: #808080;">KRW</span>
-                        </div>
-                        <div style="color: #808080; text-align: center; margin-top: 40px;margin-right: 20px;">
-                            2022년 9월1일 기준
-                        </div>
+                    <div class="boxTextDescription1">서로를 LINK하고 WEB3에서 손 쉽게 연결되세요.
+                    </div>
+                    <div class="boxTextDescription2"></div>
+                    <div class="boxImageRocat">
+                        <img src="./assets/rocat.png" srcset="./assets/rocat@2x.png 2x,./assets/rocat@3x.png 3x">
                     </div>
                 </div>
-                <div class="itemContainer">
-                    <div class="itemContainer-div3">
-                        <div style="text-align: center;" class="graph-image-wrapper">
-                            <img src="./assets/graph.svg" class="iamge">
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
 
-                <div class="textContainer">
-                    <div class="textContainer-div">
-                        <span style="color: #86b0ff;">KLAY.LINK</span>에 대해
-                        <div>더 자세히 궁금하다면 ?</div>
-                    </div>
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxTextTitle">결제는 한번만 모바일</div>
+                <div class="boxTextDescription1">수 많은 유료구독에 이제 얼마가 나가는지</div>
+                <div class="boxTextDescription2">모르겠다구요?KLAY.LINK는 한번이면 됩니다.</div>
+                <img src="./assets/mobileMoney.png">
+            </div>
+        </div>
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxTextTitle">WEB3.0의 새로운 신분증
                 </div>
-                <div class="lineContainer">
-                    <div class="lineContainer-div">
-                        <img src="./assets/line-1.svg" style="transform: rotate(180deg);" alt="">
-                    </div>
+                <div class="boxTextDescription1">KLAY.LINK를 활용해 블록체인지갑이 WEB3.0
                 </div>
-                <div class="itemContainer">
-                    <div class="itemContainer-div">
-                        <div style="color: #808080; margin-left: 25px; margin-top: 25px; font-size: 25px;">KLAY.LINK</div>
-                        <div style="color: #ffffff; margin-left: 25px; font-size: 50px;">TWITTER</div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/twitter.png" srcset="./assets/twitter@2x.png 2x,./assets/twitter@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
-                    <div class="itemContainer-div">
-                        <div style="color: #808080; margin-left: 25px; margin-top: 25px; font-size: 25px;">WEB+1</div>
-                        <div style="color: #ffffff; margin-left: 25px; font-size: 50px;">DISCORD</div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/discord.png" srcset="./assets/discord@2x.png 2x,./assets/discord@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
-                    <div class="itemContainer-div">
-                        <div style="color: #808080; margin-left: 25px; margin-top: 25px; font-size: 25px;">KLAY.LINK</div>
-                        <div style="color: #ffffff; margin-left: 25px; font-size: 50px;">GIT HUB</div>
-                        <div style="text-align: center;" class="">
-                            <img src="./assets/git.png" srcset="./assets/git@2x.png 2x,./assets/git@3x.png 3x"
-                                class="">
-                        </div>
-                    </div>
+                <div class="boxTextDescription2">시장에서 나를 알리는 수단이 될거에요.</div>
+                <img src="./assets/mobileWallet.png">
+            </div>
+        </div>
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxTextTitle">LINK로 손쉬운 네트워킹
                 </div>
+                <div class="boxTextDescription1">서로를 LINK하고 WEB3에서 손 쉽게 연결되세요.
+                </div>
+                <div class="boxTextDescription2"></div>
+                <img src="./assets/mobileRocat.png">
+            </div>
+        </div>
+
+        <div class="textContainer">
+            <div class="textContainerDiv">
+                <div>
+                    KLAYTN
+                    <span class="text86b">첫번째 SBT</span>
+                </div>
+                <div>
+                    <span>KLAY.LINK</span>
+                </div>
+            </div>
+        </div>
+        <div class="lineContainer">
+            <div class="lineContainerDiv">
+                <img src="./assets/line-2.svg" alt="">
+            </div>
+        </div>
+        <div id="PC" class="itemContainer">
+            <div class="itemContainerDiv2">
+                <div class="boxTextTitle">SBT가 뭐죠?</div>
+                <div class="boxTextDescription1">SBT는 Soul Bound Token의 약자로
+                    전송기능이 없어진 NFT 입니다.</div>
+                <div class="boxTextDescription2">투기성이 아닌 사용성에 더 집중합니다.</div>
+                <div class="boxImageDivType2">
+                    <img src="./assets/fire.png" srcset="./assets/fire@2x.png 2x,./assets/fire@3x.png 3x">
+                </div>
+                <div class="textMore">
+                    더 알아보기 >
+                </div>
+            </div>
+            <div class="itemContainerDiv2">
+                <div class="boxTextTitle">SBT를 구매하려면?
+                </div>
+                <div class="boxTextDescription1">블록체인 지갑과 KLAY가 필요합니다.
+                    KLAY.LINK는 클레이튼 최초</div>
+                <div class="boxTextDescription2">SBT로 2022년 09.22(GMT+9)부터
+                    사전판매가 됩니다.</div>
+                <div class="boxImageDivType2">
+                    <img src="./assets/box.png" srcset="./assets/box@2x.png 2x,./assets/box@3x.png 3x">
+                </div>
+                <div class="textMore">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+
+        <div id="Tablet" class="itemContainer2">
+            <div class="itemContainerDiv2">
+                <div class="boxTextTitle">SBT가 뭐죠?</div>
+                <div class="boxTextDescription1">SBT는 Soul Bound Token의 약자로
+                    전송기능이 없어진 NFT 입니다.</div>
+                <div class="boxTextDescription2">투기성이 아닌 사용성에 더 집중합니다.</div>
+                <div class="boxImageDivType2">
+                    <img src="./assets/fire.png" srcset="./assets/fire@2x.png 2x,./assets/fire@3x.png 3x">
+                </div>
+                <div class="textMore">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+        <div class="itemContainerBlank"></div>
+        <div id="Tablet" class="itemContainer2-2">
+            <div class="itemContainerDiv2-2">
+                <div class="boxTextTitle">SBT를 구매하려면?
+                </div>
+                <div class="boxTextDescription1">블록체인 지갑과 KLAY가 필요합니다.
+                    KLAY.LINK는 클레이튼 최초</div>
+                <div class="boxTextDescription2">SBT로 2022년 09.22(GMT+9)부터
+                    사전판매가 됩니다.</div>
+                <div class="boxImageDivType2">
+                    <img src="./assets/box.png" srcset="./assets/box@2x.png 2x,./assets/box@3x.png 3x">
+                </div>
+                <div class="textMore">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxTextTitle">SBT가 뭐죠?</div>
+                <div class="boxTextDescription1">SBT는 Soul Bound Token의 약자로 전송기능이</div>
+                <div class="boxTextDescription2">없어진 NFT 입니다. 투기성이 아닌 사용성에 더 집중합니다.</div>
+                <img src="./assets/mobileFire.png">
 
             </div>
-        </main>
-    </body>
+        </div>
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxTextTitle">SBT를 구매하려면?
+                </div>
+                <div class="boxTextDescription1">블록체인 지갑과 KLAY가 필요합니다. KLAY.LINK는</div>
+                <div class="boxTextDescription2">클레이튼 최초 SBT로 2022년 09.22(GMT+9)부터 사전판매가 됩니다.</div>
+                <img src="./assets/mobileBox.png">
+            </div>
+        </div>
 
-    </html>
+        <div class="textContainer">
+            <div class="textContainerDiv">
+                <div>
+                    <span>동종 서비스 구독모델대비</span>
+                </div>
+                <div>
+                    <span>엄청난</span>
+                    <span class="text86b">비용절감</span>
+                    <span>과</span>
+                    <span class="text86b">확장성</span>
+                </div>
+            </div>
+        </div>
+        <div class="lineContainer">
+            <div class="lineContainerDiv">
+                <img src="./assets/line-1.svg" alt="">
+            </div>
+        </div>
+        <div id="PC" class="itemContainer">
+            <div class="itemContainerDiv2">
+                <div class="boxDivType1"></div>
+                <span class="boxText76e">링크 나무</span>
+                <span class="boxText808">구독모델 1년 기준</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">195</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">264,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    2022년 9월1일 기준
+                </div>
+            </div>
+            <div class="itemContainerDiv2">
+                <div class="boxDivType1"></div>
+                <span class="boxText86b">KLAY.LINK</span>
+                <span class="boxText808">기간제한 없음</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">70</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">95,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    <span>
+                        2022년 9월1일 기준 |
+                    </span>
+                    <span class="boxTextWhite">
+                        300KLAY
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="PC" class="itemContainer">
+            <div class="graphImageWrapper">
+                <img src="./assets/graph.svg" alt="그래프이미지">
+            </div>
+        </div>
+
+        <div id="Tablet" class="itemContaine3">
+            <div class="itemContainerDiv3">
+                <div class="boxDivType1"></div>
+                <span class="boxText76e">링크 나무</span>
+                <span class="boxText808">구독모델 1년 기준</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">195</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">264,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    2022년 9월1일 기준
+                </div>
+            </div>
+            <div class="itemContainerDiv3-3">
+                <div class="boxDivType1"></div>
+                <span class="boxText86b">KLAY.LINK</span>
+                <span class="boxText808">기간제한 없음</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">70</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">95,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    <span>
+                        2022년 9월1일 기준 |
+                    </span>
+                    <span class="boxTextWhite">
+                        300KLAY
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="Tablet" class="itemContainer3">
+            <div class="graphImageWrapper">
+                <picture>
+                    <source media="(max-width:1040px)" srcset="./assets/graphTablet.png">
+                    <img id="graphTablet" src="./assets/graphTablet.png" alt="그래프" class="image">
+                </picture>
+            </div>
+        </div>
+
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv2">
+                <div class="boxDivType1"></div>
+                <span class="boxText76e">링크 나무</span>
+                <span class="boxText808">구독모델 1년 기준</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">195</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">264,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    2022년 9월1일 기준
+                </div>
+            </div>
+        </div>
+        <div id="mobile" class="itemContainer">
+            <div class="itemContainerDiv2">
+                <div class="boxDivType1"></div>
+                <span class="boxText86b">KLAY.LINK</span>
+                <span class="boxText808">기간제한 없음</span>
+                <div class="boxTextDivType1">
+                    <span class="boxText808Big1">70</span>
+                    <span class="boxText808Big2">USD</span>
+                </div>
+                <div>
+                    <span class="boxText808Big1">95,000</span>
+                    <span class="boxText808Big2">KRW</span>
+                </div>
+                <div class="textInfo">
+                    <span>
+                        2022년 9월1일 기준 |
+                    </span>
+                    <span class="boxTextWhite">
+                        300KLAY
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="mobile" class="itemContainer">
+            <div class="graphImageWrapper">
+                <img src="./assets/graph.svg" alt="그래프이미지">
+            </div>
+        </div>
+
+        <div class="textContainer">
+            <div class="textContainerDiv">
+                <div>
+                    <span class="text86b">KLAY.LINK</span>에 대해
+                </div>
+                <div>
+                    <span>더 자세히 궁금하다면 ?</span>
+                </div>
+            </div>
+        </div>
+        <div class="lineContainer">
+            <div class="lineContainerDiv">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div id="PC" class="itemContainer">
+            <div id="CONTACT" class="itemContainerDiv">
+                <div class="boxText808Big3">KLAY.LINK</div>
+                <div class="boxTextWhiteBig">TWITTER</div>
+                <div class="boxImageDivType1">
+                    <img src="./assets/twitter.png" srcset="./assets/twitter@2x.png 2x,./assets/twitter@3x.png 3x">
+                </div>
+                <div class="textTwitter">
+                    더 알아보기 >
+                </div>
+            </div>
+            <div class="itemContainerDiv">
+                <div class="boxText808Big3">WEB+1</div>
+                <div class="boxTextWhiteBig">DISCORD</div>
+                <div class="boxImageDivType1">
+                    <img src="./assets/discord.png" srcset="./assets/discord@2x.png 2x,./assets/discord@3x.png 3x">
+                </div>
+                <div class="textDiscord">
+                    더 알아보기 >
+                </div>
+            </div>
+            <div class="itemContainerDiv">
+                <div class="boxText808Big3">KLAY.LINK</div>
+                <div class="boxTextWhiteBig">GIT HUB</div>
+                <div class="boxImageGithub">
+                    <img src="./assets/git.png" srcset="./assets/git@2x.png 2x,./assets/git@3x.png 3x">
+                </div>
+                <div class="textGithub">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+
+        <div id="Tablet" class="itemContainer">
+            <div id="CONTACT" class="itemContainerDiv">
+                <div class="boxText808Big3">KLAY.LINK</div>
+                <div class="boxTextWhiteBig">TWITTER</div>
+                <div class="boxImageDivType1">
+                    <img src="./assets/twitter.png" srcset="./assets/twitter@2x.png 2x,./assets/twitter@3x.png 3x">
+                </div>
+                <div class="textTwitter">
+                    더 알아보기 >
+                </div>
+            </div>
+            <div class="itemContainerDiv">
+                <div class="boxText808Big3">WEB+1</div>
+                <div class="boxTextWhiteBig">DISCORD</div>
+                <div class="boxImageDivType1">
+                    <img src="./assets/discord.png" srcset="./assets/discord@2x.png 2x,./assets/discord@3x.png 3x">
+                </div>
+                <div class="textDiscord">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+        <div class="itemContainerBlank"></div>
+        <div id="Tablet" class="itemContainer">
+            <div class="itemContainerDiv">
+                <div class="boxText808Big3">KLAY.LINK</div>
+                <div class="boxTextWhiteBig">GIT HUB</div>
+                <div class="boxImageGithub">
+                    <img src="./assets/git.png" srcset="./assets/git@2x.png 2x,./assets/git@3x.png 3x">
+                </div>
+                <div class="textGithub">
+                    더 알아보기 >
+                </div>
+            </div>
+        </div>
+
+        <div class="mintContentContainer">
+            <div>COMMING SOON</div>
+        </div>
+        <div class="mintContentContainer2">
+            <div>MINT DATE | 2022.09.12(GMT+09)</div>
+        </div>
+        <div id="MINTLINK" class="mintContentContainer3">
+            <div class="mintButtonIndex0">
+                <div class="mintButtonText">사전 예약</div>
+            </div>
+            <div class="mintButtonIndex1">
+                <div class="mintButtonText">MINT</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">@2022 NDXWEB+1. All rights reseved</div>
+        </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
