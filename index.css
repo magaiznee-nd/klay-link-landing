@@ -27,12 +27,21 @@ html, body {
     overflow-x:hidden;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     background-color: #171b29;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header nav {
