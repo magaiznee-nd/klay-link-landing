@@ -39,7 +39,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1122px;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@ main {
 }
 
 main section {
-    max-width: 1240px;
+    max-width: 1122px;
 }
 
 main .main-banner {
