@@ -626,11 +626,14 @@ footer {
     }
 
     main .sbt-container .grid-container .item .more-container {
+        flex-direction: column;
         justify-content: center;
     }
 
     main .sbt-container .grid-container .item .more-container a {
-        display: none;
+        margin-top: 6px;
+        font-size: 12px;
+        font-weight: 300;
     }
 
     main .fee-container {
@@ -715,6 +718,7 @@ footer {
     }
 
     main .contact-container .grid-mobile-container {
+        width: 90%;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -723,6 +727,7 @@ footer {
     }
 
     main .contact-container .grid-mobile-container .item {
+        width: 90%;
         border-radius: 14px;
         background-color: #171b29;
         display: flex;
