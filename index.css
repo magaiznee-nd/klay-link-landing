@@ -91,6 +91,20 @@ main .about-container h5 {
     margin-bottom: 58px;
 }
 
+main .about-container .progress {
+    width: 132px;
+    height: 4px;
+    background-color: #3c3f49;
+    border-radius: 8px;
+}
+
+main .about-container .progress .bar {
+    width: 44px;
+    height: 4px;
+    background-color: #86b0ff;
+    border-radius: 8px;
+}
+
 main .about-container h6 {
     font-family: GmarketSans;
     font-size: 24px;
@@ -147,6 +161,22 @@ main .sbt-container h5 {
     font-weight: 300;
     margin-top: 172px;
     margin-bottom: 58px;
+}
+
+main .sbt-container .progress {
+    display: flex;
+    justify-content: center;
+    width: 132px;
+    height: 4px;
+    background-color: #3c3f49;
+    border-radius: 8px;
+}
+
+main .sbt-container .progress .bar {
+    width: 44px;
+    height: 4px;
+    background-color: #86b0ff;
+    border-radius: 8px;
 }
 
 main .sbt-container h6 {
@@ -215,6 +245,22 @@ main .fee-container h5 {
     font-weight: 300;
     margin-top: 172px;
     margin-bottom: 58px;
+}
+
+main .fee-container .progress {
+    display: flex;
+    justify-content: flex-end;
+    width: 132px;
+    height: 4px;
+    background-color: #3c3f49;
+    border-radius: 8px;
+}
+
+main .fee-container .progress .bar {
+    width: 44px;
+    height: 4px;
+    background-color: #86b0ff;
+    border-radius: 8px;
 }
 
 main .fee-container h6 {
@@ -372,6 +418,22 @@ main .contact-container h5 {
     font-weight: 300;
     margin-top: 172px;
     margin-bottom: 58px;
+}
+
+main .contact-container .progress {
+    display: flex;
+    justify-content: flex-end;
+    width: 132px;
+    height: 4px;
+    background-color: #3c3f49;
+    border-radius: 8px;
+}
+
+main .contact-container .progress .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #86b0ff;
+    border-radius: 8px;
 }
 
 main .contact-container h5 span {
