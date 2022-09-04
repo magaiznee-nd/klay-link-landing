@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="221" viewBox="0 0 360 221">
+    <g data-name="그룹 3879">
+        <g data-name="그룹 59" transform="translate(-401 -3498)">
+            <g data-name="사각형 37" transform="translate(401 3498)" style="stroke-width:2px;fill:rgba(22,27,40,.36);stroke:#2b334d">
+                <rect width="360" height="205" rx="14" style="stroke:none"/>
+                <rect x="1" y="1" width="358" height="203" rx="13" style="fill:none"/>
+            </g>
+            <text data-name="비용 효율성 | 서비스 추가기능 지원에 따라 더욱 증가" transform="translate(411 3513)" style="font-family:GmarketSansMedium,Gmarket Sans;font-size:6px;fill:#86b0ff"><tspan x="0" y="0">비용 효율성</tspan><tspan y="0" xml:space="preserve" style="fill:#fff"> | 서비스 추가기능 지원에 따라 더욱 증가</tspan></text>
+            <text data-name="단위 : KRW" transform="translate(719 3692)" style="fill:#fff;font-family:GmarketSansMedium,Gmarket Sans;font-size:6px"><tspan x="0" y="0">단위 : KRW</tspan></text>
+            <g data-name="그룹 13">
+                <path data-name="패스 2836" d="M956 3496v204.5" transform="translate(-375 2.471)" style="stroke:#383e52;fill:none;stroke-width:2px"/>
+                <path data-name="패스 2837" d="M0 0v360" transform="rotate(90 -1419.861 2180.861)" style="stroke:#383e52;fill:none;stroke-width:2px"/>
+            </g>
+            <text data-name="1year" transform="translate(572 3716)" style="font-size:8px;fill:#fff;font-family:GmarketSansMedium,Gmarket Sans"><tspan x="0" y="0">1year</tspan></text>
+            <text data-name="2year" transform="translate(734 3716)" style="font-size:8px;fill:#fff;font-family:GmarketSansMedium,Gmarket Sans"><tspan x="0" y="0">2year</tspan></text>
+            <text data-name="0" transform="translate(417 3717)" style="font-size:8px;fill:#fff;font-family:GmarketSansMedium,Gmarket Sans"><tspan x="0" y="0">0</tspan></text>
+            <text data-name="125USD" transform="translate(406 3596)" style="fill:#fff;font-family:GmarketSansMedium,Gmarket Sans;font-size:6px"><tspan x="0" y="0">125USD</tspan></text>
+            <circle data-name="타원 1" cx="5" cy="5" r="5" transform="translate(430 3683)" style="fill:#00ffb1"/>
+            <circle data-name="타원 2" cx="5" cy="5" r="5" transform="translate(721 3507)" style="fill:#00ffb1"/>
+            <path data-name="패스 2838" d="m465 3703.524 290.3-175.969" transform="translate(-29.602 -15.157)" style="stroke:#07ffd9;fill:none"/>
+            <path data-name="합치기 1" d="M22.258 18.982H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h43a4 4 0 0 1 4 4v10.981a4 4 0 0 1-4 4H29.209L25.734 25z" transform="translate(555 3568)" style="fill:#00ffb1"/>
+            <text data-name="+169,000" transform="translate(559 3580)" style="fill:#07090e;font-size:9px;font-family:GmarketSansBold,Gmarket Sans"><tspan x="0" y="0">+169,000</tspan></text>
+        </g>
+    </g>
+</svg>

@@ -627,7 +627,12 @@ footer {
 
     main .sbt-container .grid-container .item .more-container {
         flex-direction: column;
+    }
+
+    main .sbt-container .grid-container .item .more-container .img-container {
+        width: 100%;
         justify-content: center;
+        align-items: center;
     }
 
     main .sbt-container .grid-container .item .more-container a {
@@ -718,22 +723,21 @@ footer {
     }
 
     main .contact-container .grid-mobile-container {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 16px;
         margin-top: 65px;
-        padding: 30px;
     }
 
     main .contact-container .grid-mobile-container .item {
-        width: 90%;
+        width: 100%;
         border-radius: 14px;
         background-color: #171b29;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        padding: 20px;
+        padding: 20px 0px;
     }
 
     main .contact-container .grid-mobile-container .item .title {
