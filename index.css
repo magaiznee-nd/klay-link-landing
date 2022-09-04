@@ -73,11 +73,16 @@ main {
     align-items: center;
 }
 
+main section {
+    max-width: 1240px;
+}
+
 main .main-banner {
     width: 100%;
 }
 
 main .about-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,6 +133,7 @@ main .about-container h5 span {
 
 main .about-container .grid-container {
     display: flex;
+    width: 100%;
     gap: 16px;
     margin-top: 65px;
 }
@@ -150,6 +156,7 @@ main .about-container .grid-container .item p {
 }
 
 main .sbt-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,6 +208,7 @@ main .sbt-container h5 span {
 
 
 main .sbt-container .grid-container {
+    width: 100%;
     display: flex;
     gap: 16px;
     margin-top: 65px;
@@ -233,6 +241,7 @@ main .sbt-container .grid-container .item .more-container{
 }
 
 main .fee-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -287,6 +296,7 @@ main .fee-container .grid-container {
     display: flex;
     gap: 16px;
     margin-top: 65px;
+    width: 100%;
 }
 
 main .fee-container .grid-container .item {
@@ -404,6 +414,7 @@ main .fee-container .graph {
 }
 
 main .contact-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -442,6 +453,7 @@ main .contact-container h5 span {
 
 
 main .contact-container .grid-container {
+    width: 100%;
     display: flex;
     gap: 16px;
     margin-top: 65px;
@@ -559,6 +571,10 @@ footer {
         display: none;
     }
 
+    main .about-container {
+        width: 90%;
+    }
+
     main .about-container h5 {
         text-align: center;
         font-family: GmarketSans;
@@ -573,7 +589,6 @@ footer {
         flex-direction: column;
         gap: 16px;
         margin-top: 65px;
-        padding: 30px;
     }
 
     main .about-container .grid-container .item{
@@ -581,6 +596,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+
+    main .sbt-container {
+        width: 90%;
     }
 
     main .sbt-container h5 {
@@ -615,6 +634,10 @@ footer {
         display: none;
     }
 
+    main .fee-container {
+        width: 90%;
+    }
+
     main .fee-container h5 {
         text-align: center;
         font-family: GmarketSans;
@@ -629,7 +652,6 @@ footer {
         flex-direction: column;
         gap: 16px;
         margin-top: 65px;
-        padding: 30px;
         width: 100%;
     }
 
@@ -674,6 +696,10 @@ footer {
 
     main .fee-container img {
         width: 100%;
+    }
+
+    main .contact-container {
+        width: 90%;
     }
 
     main .contact-container h5 {
