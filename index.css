@@ -23,6 +23,8 @@ html, body {
     background: #000;
     color: #fff;
     scroll-behavior: smooth;
+    width:100%;
+    overflow-x:hidden;
 }
 
 header {
@@ -205,7 +207,6 @@ main .sbt-container .grid-container {
 }
 
 main .sbt-container .grid-container .item {
-    width: 100%;
     max-width: 548px;
     border-radius: 14px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -290,7 +291,6 @@ main .fee-container .grid-container {
 
 main .fee-container .grid-container .item {
     width: 100%;
-    min-width: 548px;
     border-radius: 14px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #171b29;
@@ -341,7 +341,6 @@ main .fee-container .grid-container .item .date {
 
 main .fee-container .grid-container .item-win {
     width: 100%;
-    min-width: 548px;
     border-radius: 14px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #171b29;
@@ -448,6 +447,10 @@ main .contact-container .grid-container {
     margin-top: 65px;
 }
 
+main .contact-container .grid-mobile-container {
+    display: none;
+}
+
 main .contact-container .grid-container .item {
     width: 100%;
     min-width: 360px;
@@ -549,4 +552,225 @@ footer {
     font-size: 20px;
     font-weight: bold;
     color: #969696;
+}
+
+@media all and (max-width:767px) {
+    header {
+        display: none;
+    }
+
+    main .about-container h5 {
+        text-align: center;
+        font-family: GmarketSans;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 115px;
+        margin-bottom: 29px;
+    }
+
+    main .about-container .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 65px;
+        padding: 30px;
+    }
+
+    main .about-container .grid-container .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .sbt-container h5 {
+        text-align: center;
+        font-family: GmarketSans;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 66px;
+        margin-bottom: 29px;
+    }
+
+    main .sbt-container .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 65px;
+        padding: 30px;
+    }
+
+    main .sbt-container .grid-container .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .sbt-container .grid-container .item .more-container {
+        justify-content: center;
+    }
+
+    main .sbt-container .grid-container .item .more-container a {
+        display: none;
+    }
+
+    main .fee-container h5 {
+        text-align: center;
+        font-family: GmarketSans;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 115px;
+        margin-bottom: 29px;
+    }
+
+    main .fee-container .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 65px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    main .fee-container .grid-container .item {
+        justify-content: center;
+        width: 100%;
+    }
+
+    main .fee-container .grid-container .item h6 {
+        font-size: 41px;
+    }
+
+    main .fee-container .grid-container .item h6 .unit {
+        font-size: 13px;
+    }
+
+    main .fee-container .grid-container .item .date {
+        margin-top: 46px;
+        font-size: 14px;
+    }
+
+    main .fee-container .grid-container .item-win {
+        justify-content: center;
+    }
+
+    main .fee-container .grid-container .item-win h6 {
+        font-size: 41px;
+    }
+
+    main .fee-container .grid-container .item-win h6 .unit {
+        font-size: 13px;
+    }
+
+    main .fee-container .grid-container .item-win .date {
+        margin-top: 46px;
+        font-size: 14px;
+    }
+
+    main .fee-container .grid-container .item-win .date span {
+        font-size: 14px;
+    }
+
+    main .fee-container img {
+        width: 100%;
+    }
+
+    main .contact-container h5 {
+        text-align: center;
+        font-family: GmarketSans;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 115px;
+        margin-bottom: 29px;
+    }
+
+    main .contact-container .grid-container {
+        display: none;
+    }
+
+    main .contact-container .grid-mobile-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 65px;
+        padding: 30px;
+    }
+
+    main .contact-container .grid-mobile-container .item {
+        border-radius: 14px;
+        background-color: #171b29;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    main .contact-container .grid-mobile-container .item .title {
+        display: flex;
+        flex-direction: column;
+        margin-right: 71px;
+    }
+
+    main .contact-container .grid-mobile-container .item .title p {
+        font-family: GmarketSans;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    main .contact-container .grid-mobile-container .item .title h6 {
+        font-family: GmarketSans;
+        font-size: 29px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    main .contact-container .grid-mobile-container .item .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .contact-container .grid-mobile-container .item .content a {
+        font-family: GmarketSans;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 28px;
+        opacity: 0.6;
+    }
+
+
+    main .mint-container h5 {
+        font-family: GmarketSans;
+        font-size: 37px;
+        font-weight: bold;
+        color: #86b0ff;
+        margin-top: 90px;
+    }
+
+    main .mint-container h6 {
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    main .mint-container h6 span {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    main .mint-container .button-container {
+        margin-top: 27px;
+    }
+
+    main .mint-container .button-container .disabled {
+        display: none;
+    }
+
+    footer {
+        opacity: 0.3;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 129px;
+    }
 }
