@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.635" height="46.931" viewBox="0 0 42.635 46.931">
+    <defs>
+        <linearGradient id="ybfreyiaxa" x1=".5" y1="-.01" x2=".5" y2=".962" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#6298d2" stop-opacity=".302"/>
+            <stop offset=".985" stop-color="#6298d2" stop-opacity=".4"/>
+        </linearGradient>
+        <linearGradient id="cg9qom8gob" x1=".11" y1=".149" x2=".832" y2=".816" xlink:href="#ybfreyiaxa"/>
+        <linearGradient id="uhza1f42dc" x1=".11" y1="-.472" x2=".832" y2=".195" xlink:href="#ybfreyiaxa"/>
+    </defs>
+    <g data-name="그룹 3895" transform="translate(-1990.889 -760.746)" style="opacity:.6">
+        <path data-name="사각형 108" transform="translate(2007.685 765.992)" style="fill:url(#ybfreyiaxa)" d="M0 0h9.801v36.439H0z"/>
+        <circle data-name="타원 596" cx="5.064" cy="5.064" r="5.064" transform="translate(2007.522 761.389)" style="fill:#6298d2"/>
+        <circle data-name="타원 597" cx="5.064" cy="5.064" r="5.064" transform="translate(2007.522 797.367)" style="fill:#6298d2"/>
+        <path data-name="패스 2852" d="M1995.789 760.746a4.9 4.9 0 0 0-4.9 4.9v37.13a4.9 4.9 0 1 0 9.8 0v-37.13a4.9 4.9 0 0 0-4.9-4.9z" style="fill:#6298d2"/>
+        <g data-name="그룹 3895" transform="translate(1992.831 762.698)">
+            <path data-name="패스 2853" d="m2007.74 783.93 6.813-6.243 32.654 36.149-7.637 6.578z" transform="translate(-2007.74 -777.687)" style="fill:url(#cg9qom8gob)"/>
+            <circle data-name="타원 598" cx="5.064" cy="5.064" r="5.064" transform="translate(30.565 34.342)" style="fill:#6298d2"/>
+        </g>
+        <g data-name="그룹 3896" transform="translate(1992.831 761.389)">
+            <circle data-name="타원 599" cx="5.064" cy="5.064" r="5.064" transform="translate(30.565)" style="fill:#6298d2"/>
+            <path data-name="패스 2854" d="m2007.74 817.936 6.813 6.243 32.654-36.149-7.637-6.578z" transform="translate(-2007.74 -779.709)" style="fill:url(#uhza1f42dc)"/>
+        </g>
+    </g>
+</svg>

@@ -39,6 +39,16 @@
 </head>
 
 <body>
+    <script type="text/javascript"> 
+    function displayPopup() {
+        var el = document.getElementById("popup");
+        if (el.style.display === "none") {
+            el.style.display = "flex";
+        } else {
+            el.style.display = "none";
+        }
+    }
+    </script>
     <header>
         <nav>
             <h1>
@@ -58,6 +68,15 @@
         </nav>
     </header>
     <main>
+        <a class="popup-background" id="popup" href="javascript:displayPopup();">
+            <div class="popup">
+                <img src="./assets/images/logo-dark.svg" alt="klay.link"/>
+                <p>2022년 9월 12일에 첫 민팅이 열립니다 :)</p>
+                <!-- <a href="javascript:displayPopup();"> -->
+                    <img src="./assets/images/close.png" alt="close"/>
+                <!-- </a> -->
+            </div>
+        </a>
         <picture>
             <source media="(max-width: 768px)" srcset="./assets/images/main-banner-mobile.png"/>
             <img class="main-banner" src="./assets/images/main-banner.png" alt="GET YOUR LINK, KLAY.LINK" />
@@ -239,7 +258,7 @@
             <h6>MINT DATE | 2022.09.12 <span>(GMT+09)</span></h6>
             <div class="button-container">
                 <a>사전 예약</a>
-                <a class="disabled">MINT</a>
+                <a href="javascript:displayPopup();" class="disabled">MINT</a>
             </div>
         </section>
     </main>
