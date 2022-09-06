@@ -636,6 +636,7 @@ footer {
     main .about-container .grid-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 16px;
         margin-top: 65px;
     }
@@ -644,6 +645,10 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+    }
+
+    main .about-container .grid-container .item p{
         text-align: center;
     }
 
