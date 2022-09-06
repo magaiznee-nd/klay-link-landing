@@ -94,7 +94,7 @@ main .popup-background {
     display       : none;
     flex-direction: column;
     overflow-y    : scroll;
-    padding       : 60px 0;
+    padding       : 60px 0px;
 }
 
 main .popup-background .popup {
@@ -171,6 +171,7 @@ main .about-container p {
     font-family: GmarketSans;
     font-weight: 300;
     opacity: 65%;
+    letter-spacing: -0.48px;
 }
 
 main .about-container h5 span {
@@ -247,6 +248,7 @@ main .sbt-container p {
     font-family: GmarketSans;
     font-weight: 300;
     opacity: 65%;
+    line-height: 1.63;
 }
 
 main .sbt-container h5 span {
@@ -848,7 +850,9 @@ footer {
     }
 
     main .mint-container .button-container {
+        display: flex;
         margin-top: 27px;
+        flex-direction: column;
     }
 
     main .mint-container .button-container .disabled {
