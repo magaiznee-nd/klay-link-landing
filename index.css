@@ -575,8 +575,8 @@ main .mint-container span {
 
 main .mint-container .button-container {
     display: flex;
-    gap: 16px;
     margin-top: 64px;
+    justify-content: center;
 }
 
 main .mint-container .button-container a {
